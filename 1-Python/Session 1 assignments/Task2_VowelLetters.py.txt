@@ -1,10 +1,9 @@
 #Task2:
 #Write a Python program to test whether a passed letter is a vowel or not.
 
+letter = input("Enter a letter: ")
 
- numbers = [1, 2, 4, 4, 5, 4, 6, 7, 8, 4]
-count = 0
-for num in numbers:
-    if num == 4:
-        count += 1
-print("Number of 4s in the list:", count)
+if letter.lower() in ['a', 'e', 'i', 'o', 'u']:
+    print(letter, "is a vowel.")
+else:
+    print(letter, "is not a vowel.")
