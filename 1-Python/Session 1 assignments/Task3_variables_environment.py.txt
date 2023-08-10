@@ -1,17 +1,14 @@
 # 3. Write a python program to access environment variables.
 
 
-import os
+import pathlib
 
 # Access a specific environment variable
-variable_name = "My_Variable"
-value = os.environ.get(variable_name)
-if value:
-    print(f"The value of {variable_name} is: {value}")
-else:
-    print(f"{variable_name} is not set.")
+variable_name = "MY_VARIABLE"
+variable_value = pathlib.Path.environ.get(variable_name)
 
-# Access all environment variables
-print("\nAll environment variables:")
-for key, value in os.environ.items():
-    print(f"{key}: {value}")
+if variable_value is not None:
+    print(f"The value of {variable_name} is: {variable_value}")
+else:
+    print(f"The environment variable {variable_name} is not set.")
+
