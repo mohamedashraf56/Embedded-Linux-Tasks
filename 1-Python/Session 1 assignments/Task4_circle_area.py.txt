@@ -1,13 +1,2 @@
 #4-Write a Python program which accepts the radius of a circle from the user and compute the area.
 
-
-import pathlib
-
-# Access a specific environment variable
-variable_name = "MY_VARIABLE"
-variable_value = pathlib.Path.environ.get(variable_name)
-
-if variable_value is not None:
-    print(f"The value of {variable_name} is: {variable_value}")
-else:
-    print(f"The environment variable {variable_name} is not set.")
