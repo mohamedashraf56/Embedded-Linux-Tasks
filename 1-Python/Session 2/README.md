@@ -1,5 +1,6 @@
 1-Task 1:
-Find Bitcoin rate automatically by using the URL 
+Find the Bitcoin rate automatically by using the URL 
+
 Output example:
 
 {'USD': {'code': 'USD', 'symbol': '&#36;', 'rate': '29,332.6839', 'description': 'United States Dollar', 'rate_float': 29332.6839}, 
