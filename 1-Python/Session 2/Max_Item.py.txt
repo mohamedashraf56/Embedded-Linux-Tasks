@@ -1,0 +1,20 @@
+#Maximum_Item
+#find the max item from a given list ...
+
+def Find_Max_Num(List):
+    
+    if len(List) == 0 :
+        return None
+    
+    Max_Item = List[0]
+    for item in List:
+        if item > Max_Item:
+            Max_Item= item
+            
+    return Max_Item
+
+
+
+List_Numbers = [10, 120, 70, 80, 90, 40, 100, 15]
+max = Find_Max_Num(List_Numbers)
+print("The Largest Number in the List is : ",max), 

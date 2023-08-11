@@ -1,0 +1,8 @@
+#!/usr/bin/python3 
+
+# Write a python code to find automatically bitcoin rate from URL
+
+import requests
+
+URL = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+print(URL.json()['bpi'])
