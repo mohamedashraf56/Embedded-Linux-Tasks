@@ -20,3 +20,8 @@
 
 ###### Mode OFF :
 ![Screenshot from 2023-09-02 20-55-28](https://github.com/mohamedashraf56/Embedded-Linux-Tasks/assets/110823285/e920ce3f-c66d-40df-8218-4e00a9a63f3f)
+
+
+## Humidity_GAUGE :
+
+![Screenshot from 2023-09-02 21-33-05](https://github.com/mohamedashraf56/Embedded-Linux-Tasks/assets/110823285/7721aacf-6fcd-4f6f-a7bc-bf1877858dad)
