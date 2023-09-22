@@ -12,4 +12,5 @@
 
 ## ASCII table 
 
-![Screenshot from 2023-09-16 13-56-59](https://github.com/mohamedashraf56/Embedded-Linux-Tasks/assets/110823285/3dffad55-852e-447d-b0a7-99b6d161cc22)
+![Screenshot from 2023-09-16 13-56-59](https://github.com/mohamedashraf56/Embedded-Linux-Tasks/assets/110823285/0cfccc3c-3e32-4ac8-af96-e7b8f7b29ad0)
+
